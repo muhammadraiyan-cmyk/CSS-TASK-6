@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+header {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+h2 {
+    color: #1d4ed8;
+    margin-bottom: 15px;
+}
+
+section > p {
+    margin-bottom: 15px;
+}
+
+
+
+.descendant p {
+    background-color: lightblue;
+    color: darkblue;
+    padding: 12px;
+    margin: 8px;
+}
+
+
+
+.child > p {
+    background-color: lightgreen;
+    color: darkgreen;
+    padding: 12px;
+    margin: 8px;
+}
+
+
+
+.adjacent h3 + p {
+    background-color: lightsalmon;
+    color: darkred;
+    padding: 12px;
+    margin: 8px;
+}
+
+
+
+.general h3 ~ p {
+    background-color: plum;
+    color: purple;
+    padding: 12px;
+    margin: 8px;
+}
+
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
